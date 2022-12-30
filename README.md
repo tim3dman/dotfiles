@@ -24,19 +24,19 @@ the background color in the waybar/color.css file
 to your desired matching color.
 
 ### Bars
-![sample swaybar](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2022-11-12_06-18-46_833281612.png)
+![sample swaybar](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2022-11-12_06-18-46_833281612.png)
 <br/>
-![sample waybar](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-11-16_07-39-12_708754889.png)
+![sample waybar](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-11-16_07-39-12_708754889.png)
 <br/>
-![sample waybar](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-11-15_22-25-02_641878534.png)
+![sample waybar](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-11-15_22-25-02_641878534.png)
 <br/>
 ### Desktops
-![sample desktop](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2022-11-28_03-48-12_306820383.png)
+![sample desktop](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2022-11-28_03-48-12_306820383.png)
 <br/>
-![sample desktop](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-11-15_08-23-25_264575588.png)
+![sample desktop](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-11-15_08-23-25_264575588.png)
 <br/>
-![sample desktop](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-11-05_21-57-44_219301240.png)
+![sample desktop](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-11-05_21-57-44_219301240.png)
 <br/>
-![sample desktop](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-10-27_06-40-20_483919216.png)
+![sample desktop](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-10-27_06-40-20_483919216.png)
 <br/>
-![sample desktop](https://github.com/tim3dman/.dotfiles/blob/main/Screenshots/screenshot_2021-10-27_06-50-50_028078689.png)
+![sample desktop](https://github.com/tim3dman/dotfiles/blob/main/Screenshots/screenshot_2021-10-27_06-50-50_028078689.png)
