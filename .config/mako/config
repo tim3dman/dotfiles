@@ -1,0 +1,13 @@
+max-history=10
+font=monospace 11
+background-color=#3b4252
+text-color=#eceff4
+width=350
+padding=10
+border-size=2
+border-color=#4c566a
+default-timeout=10000
+group-by=summary
+
+[grouped]
+format=<b>%s</b>\n%b

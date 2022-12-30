@@ -1,0 +1,27 @@
+<span font_desc="JetBrains Mono">
+<span size="xx-large" foreground="#6ff87d">Cheatsheet</span>
+<span foreground="#eeeeee">
+Terminal emulator	<span foreground="#6ff87d" face="mono">Win+Enter</span>
+Web browser		<span foreground="#6ff87d" face="mono">Win+B</span>
+Text editor		<span foreground="#6ff87d" face="mono">Win+E</span>
+File manager		<span foreground="#6ff87d" face="mono">Win+C</span>
+Application launcher	<span foreground="#6ff87d" face="mono">Win+D</span>
+
+Kill app                <span foreground="#6ff87d" face="mono">Win+Shift+Q</span>
+Reload sway		<span foreground="#6ff87d" face="mono">Win+Shift+C</span>
+Lock screen             <span foreground="#6ff87d" face="mono">Win+G</span>
+
+Switch workspace	<span foreground="#6ff87d" face="mono">Win+number</span>
+Move to workspace	<span foreground="#6ff87d" face="mono">Win+Shift+number</span>
+Move focus		<span foreground="#6ff87d" face="mono">Win+arrow</span>
+Move container		<span foreground="#6ff87d" face="mono">Win+Shift+arrow</span>
+
+Toggle floating		<span foreground="#6ff87d" face="mono">Win+Shift+Space</span>
+Toggle tabbed		<span foreground="#6ff87d" face="mono">Win+T</span>
+Toggle split		<span foreground="#6ff87d" face="mono">Win+L</span>
+Fullscreen		<span foreground="#6ff87d" face="mono">Win+F</span>
+
+Move to scratchpad	<span foreground="#6ff87d" face="mono">Win+Shift+Z</span>
+Show scratchpad		<span foreground="#6ff87d" face="mono">Win+Z</span>
+</span>
+</span>

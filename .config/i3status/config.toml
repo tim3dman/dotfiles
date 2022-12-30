@@ -1,0 +1,46 @@
+[icons]
+icons = "awesome"
+
+[[block]]
+block = "custom"
+command = "sed 's/  //' <(curl 'https://wttr.in/Melbourne?format=1&m' -s)"
+interval = 600
+
+[[block]]
+block = "battery" 
+device = "BAT0"
+format = " $icon $percentage "
+full_format = ""
+full_threshold = 85
+warning = 20
+critical = 10
+[block.theme_overrides]
+warning_fg = "#f5f77f"
+critical_fg = "#fd0600"
+
+[[block]]
+block = "battery"
+device = "BAT1"
+format = " $icon $percentage "
+full_format = ""
+full_threshold = 95
+warning = 20
+critical = 10
+[block.theme_overrides]
+warning_fg = "#f5f77f"
+critical_fg = "#fd0060"
+
+[[block]]
+block = "net"
+format = " $icon $device "
+missing_format = ""
+
+[[block]]
+block = "sound"
+show_volume_when_muted = true
+headphones_indicator = true
+
+[[block]]
+block = "time"
+interval = 5
+format = " %a %d.%m %I:%M "

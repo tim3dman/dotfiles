@@ -1,0 +1,16 @@
+<span font_desc="JetBrains Mono">
+<span size="xx-large" foreground="#6ff87d">Screenshots</span>
+<span foreground="#eeeeee">
+Saved to ~/Pictures/Screenshots <span foreground="#6ff87d" face="mono"></span>
+
+Full screenshot       <span foreground="#6ff87d" face="mono">PrtSc</span>
+Window screenshot     <span foreground="#6ff87d" face="mono">Alt+PrtSc</span>
+Region screenshot     <span foreground="#6ff87d" face="mono">Shift+PrtSc</span>
+
+Display upload        <span foreground="#6ff87d" face="mono">Win+PrtSc</span>
+Window upload         <span foreground="#6ff87d" face="mono">Win+Alt+PrtSc</span>
+Region upload         <span foreground="#6ff87d" face="mono">Win+Shift+PrtSc</span>
+
+Upload address saved to clipboard <span foreground="#6ff87d" face="mono"></span>
+</span>
+</span>
