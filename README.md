@@ -3,7 +3,7 @@ Config files for Archlinux, bash, vim, sway,
 swaybar, swaylock, waybar, yofi and various other applications. 
 
 ## Archlinux
-This is a Thinkpad t470 using 
+This is a Thinkpad t470 laptop using 
 uefi, systemd-boot with full disk encryption. LVM for the partitioning with 
 separate root, home, var, data and swap partitions.
 
