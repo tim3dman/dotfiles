@@ -1,9 +1,9 @@
-# ~/.bashrc 140123
 #!/bin/bash
+
+# ~/.bashrc 250123
 
 # prompt set system wide in /etc/bash.bashrc
 # PATH set in .bash_profile
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -11,6 +11,7 @@
 shopt -s histappend
 export HISTFILESIZE=
 export HISTSIZE=
+
 # History options
 HISTCONTROL=ignoreboth:erasedups
 HISTIGNORE='q:ls:c:cd:cl:h:alias'
@@ -25,6 +26,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export QT_QPA_PLATFORM=wayland
 export MOZ_USE_XINPUT2=1
 export XDG_CURRENT_DESKTOP=sway
+export PASSWORD_STORE_ENABLE_EXTENSIONS=true
 
 # aliases
 alias ...='cd ../..'
@@ -68,4 +70,10 @@ alias syshsl='systemctl hybrid-sleep'
 alias tbin='nc termbin.com 9999' # file posting $ cat ~/some_file.txt | tb
 alias tmuxrc='nvim ~/.config/tmux/tmux.conf'
 alias activate='source venv/bin/activate'
-alias drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+alias milk='milcheck -n 1' # check mirror status and latest news
+alias piaon='systemctl start openvpn-client@client.service' # start pia vpn service
+alias piaoff='systemctl stop openvpn-client@client.service'
+alias timserv='ssh tim@192.168.50.200'
+alias gitserv='ssh git@192.168.50.200'
+alias syncback='rsync -auvz Documents tim@192.168.50.200:'
+alias ip='ip -c' # ip with color
