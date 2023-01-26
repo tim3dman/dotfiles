@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ~/.bashrc 250123
+# ~/.bashrc 27.01.23
 
 # prompt set system wide in /etc/bash.bashrc
 # PATH set in .bash_profile
