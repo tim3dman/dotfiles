@@ -1,0 +1,23 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/mapper/vg0-root LABEL=root
+UUID=1df95915-22c9-4af4-b0b0-d927a7c78b2e / ext4 rw,noatime 0 1
+
+# /dev/nvme0n1p1 LABEL=EFI
+UUID=6519-2294 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 2
+
+# /dev/mapper/vg0-home LABEL=home
+UUID=2e66c762-6fc3-489d-a52f-9c2e73b80232 /home ext4 rw,noatime 0 2
+
+# /dev/mapper/vg0-data LABEL=data
+UUID=560abc25-d9a5-4e9b-bf32-ffb4ddbb30c8 /home/data ext4 rw,noatime 0 2
+
+# /dev/mapper/vg0-var LABEL=var
+UUID=fa7ac688-daf2-4040-8c9c-81177579d710 /var ext4 rw,noatime 0 2
+
+# /dev/mapper/vg0-swap LABEL=swap
+UUID=d9e08898-bcf4-4c7b-a050-d159add0815e none swap sw 0 0
+
+tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0
