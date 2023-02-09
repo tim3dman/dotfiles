@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ~/.bashrc 09.02.23
+# ~/.bashrc 090223
 
 # prompt set system wide in /etc/bash.bashrc
 # PATH set in .bash_profile
@@ -52,7 +52,6 @@ alias chown='chown -v'
 alias chmod='chmod -v'
 alias rmdir='rmdir -v'
 alias bashrc='vim ~/.bashrc'
-alias nvimrc='vim ~/.config/nvim/init.vim'
 alias vimrc='vim ~/.vimrc'
 alias swayconf='vim ~/.config/sway/config' # sway config file
 alias i3status='vim ~/.config/i3status/config.toml' # i3status config file
