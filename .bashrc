@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ~/.bashrc 27.01.23
+# ~/.bashrc 09.02.23
 
 # prompt set system wide in /etc/bash.bashrc
 # PATH set in .bash_profile
@@ -35,8 +35,6 @@ alias la='ls -A'
 alias ll='ls -l'
 alias c='clear'
 alias q='exit'
-alias pacu='sudo pacman -Syu'
-alias yayu='yay -Sua'
 alias df='df -kh'
 alias cl='c;ls -lA'
 alias h='history'
@@ -53,11 +51,11 @@ alias cp='cp -v'
 alias chown='chown -v'
 alias chmod='chmod -v'
 alias rmdir='rmdir -v'
-alias bashrc='nvim ~/.bashrc'
-alias nvimrc='nvim ~/.config/nvim/init.vim'
+alias bashrc='vim ~/.bashrc'
+alias nvimrc='vim ~/.config/nvim/init.vim'
 alias vimrc='vim ~/.vimrc'
-alias swayconf='nvim ~/.config/sway/config' # sway config file
-alias i3status='nvim ~/.config/i3status/config.toml' # i3status config file
+alias swayconf='vim ~/.config/sway/config' # sway config file
+alias i3status='vim ~/.config/i3status/config.toml' # i3status config file
 alias packages="pacman -Qq | fzf --preview 'pacman -Qil {}' --layout=reverse --bind 'enter:execute(pacman -Qil {} | less)'"
 alias orphans='pacman -Rns $(pacman -Qtdq)'
 alias sudo='sudo '
@@ -67,8 +65,8 @@ alias syssus='systemctl suspend'
 alias syshib='systemctl hibernate'
 alias syssth='systemctl suspend-then-hibernate'
 alias syshsl='systemctl hybrid-sleep'
-alias tbin='nc termbin.com 9999' # file posting $ cat ~/some_file.txt | tb
-alias tmuxrc='nvim ~/.config/tmux/tmux.conf'
+alias tbin='nc termbin.com 9999' # file posting $cat ~/some_file.txt | tb
+alias tmuxrc='vim ~/.config/tmux/tmux.conf'
 alias activate='source venv/bin/activate'
 alias milk='milcheck -n 1' # check mirror status and latest news
 alias piaon='systemctl start openvpn-client@client.service' # start pia vpn service

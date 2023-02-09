@@ -1,4 +1,5 @@
-" .vimrc 241222
+" .vimrc 090223
+
 call plug#begin()
 
 Plug 'rust-lang/rust.vim'
